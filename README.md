@@ -75,16 +75,25 @@ Results
 Usage Instructions
 1.	Clone the repository:
 ```bash 
-git clone https://github.com/daf-tsal/wine_svm_classification.git
+git clone https://github.com/daf-tsal/wine-svm-classification-problem.git
+cd wine-svm-classification-problem
 ``` 
 2. Install required libraries: 
 ```bash 
-pip install numpy pandas scikit-learn
-``` 
-3. Run the Python script: 
-```bash 
-python wine_svm_project.py
-``` 
+pip install -r requirements.txt
+```
+3. Make sure the dataset is located in:
+   data/wine.data
+4. Open the notebook:
+```bash
+jupyter notebook
+```
+5. Run the Python script:
+```python
+  notebooks/wine_analysis.ipynb
+```
+6.The results (confusion matrices) will be saved in:
+results/
 
 Output includes:
 ⦁	Validation and test errors for each training run
