@@ -27,6 +27,7 @@ This project uses a **Support Vector Machine (SVM)** classifier to distinguish b
 
 SVM works by finding a hyperplane that maximally separates the classes in feature space. Different kernels can be used to capture non-linear relationships.
 ---
+
 ## Project Structure
 wine-svm-classification/
 ├── data/
