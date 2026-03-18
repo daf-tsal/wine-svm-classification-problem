@@ -30,13 +30,21 @@ SVM works by finding a hyperplane that maximally separates the classes in featur
 
 ## Project Structure
 wine-svm-classification/
+
 ├── data/
+
 │ └── wine.data
+
 ├── results/
+
 │ ├── confusion_matrix_5_features.png
+
 │ └── confusion_matrix_all_features.png
+
 ├── notebooks/
+
 │ └── wine_analysis.ipynb 
+
 ├── README.md
 
 ---
