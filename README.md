@@ -84,6 +84,7 @@ pip install -r requirements.txt
 ```
 3. Make sure the dataset is located in:
    data/wine.data
+   
 4. Open the notebook:
 ```bash
 jupyter notebook
