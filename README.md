@@ -28,9 +28,16 @@ This project uses a **Support Vector Machine (SVM)** classifier to distinguish b
 SVM works by finding a hyperplane that maximally separates the classes in feature space. Different kernels can be used to capture non-linear relationships.
 ---
 ## Project Structure
-- `wine_svm_project.py` → Code for data preparation, SVM training (linear, polynomial, RBF), and evaluation.  
-- `wine.data` → Wine dataset file.  
-- `README.md` → This file.
+wine-svm-classification/
+├── data/
+│ └── wine.data
+├── results/
+│ ├── confusion_matrix_5_features.png
+│ └── confusion_matrix_all_features.png
+├── notebooks/
+│ └── wine_analysis.ipynb 
+├── README.md
+
 ---
 ## Execution Steps
 1. Load the dataset:
@@ -74,3 +81,11 @@ Output includes:
 ⦁	Validation and test errors for each training run
 ⦁	Mean and standard deviation of errors
 ⦁	Confusion matrices for classification evaluation
+
+## Visualizations
+
+### Confusion Matrix (All Features)
+![Confusion Matrix All](results/confusion_matrix_all_features.png)
+
+### Confusion Matrix (5 Features)
+![Confusion Matrix 5](results/confusion_matrix_5_features.png)
